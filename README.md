@@ -23,7 +23,7 @@ These characteristics hinder the ability of readers to understand the topic.
 
 ### Proposed solution
 
-For avoidance of doubt, the goal is to allow maintainers to define `keywords`.
+The goal is to allow maintainers to define `keywords`.
 
 `Keywords` are any of \[acryonym | word | phrase\]
 that require some pre-requisite knowledge or context for understanding.
