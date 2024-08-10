@@ -9,6 +9,7 @@ class Settings(BaseSettings):
     mongo_password: str
     mongo_url: str
     mongo_database: str
+    secret_key: str
     model_config = SettingsConfigDict(env_file=".env",  env_file_encoding='utf-8')
 
 @lru_cache

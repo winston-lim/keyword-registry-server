@@ -48,11 +48,11 @@ A `User` is a user of Keyword Registry Platform (KRP).
 
 ```
 User {
-    ID: string
-    Email: string
-    Password: string
-    IsVerified: boolean
-    CreatedAt: string
+    ID: string!
+    Username: string!
+    Password: string!
+    IsVerified: boolean!
+    CreatedAt: string!
     UpdatedAt: string
     DeletedAt: string
 }
